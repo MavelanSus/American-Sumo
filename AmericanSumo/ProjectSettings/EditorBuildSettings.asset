@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 677ced8db358fb9409dd9078987e929f
+  - enabled: 1
+    path: Assets/Scenes/2Players/Pistols 0.unity
+    guid: cf082609cbf3fee42b1a7d1e02f4635e
+  - enabled: 1
+    path: Assets/Scenes/2Players/Pistols 1.unity
+    guid: a5136de784c588f409596bf8f7544448
+  - enabled: 1
+    path: Assets/Scenes/2Players/Pistols 2.unity
+    guid: 3dc5eec4ab6813d4aa6c2f62eab2dd1e
+  - enabled: 1
+    path: Assets/Scenes/2Players/Pistols 3.unity
+    guid: 3889ea06ebf47464aafb074917c707b5
+  - enabled: 1
+    path: Assets/Scenes/2Players/Pistols 4.unity
+    guid: 0a426a9b503594d49a2c9ebbfd4ccd9f
+  - enabled: 1
+    path: Assets/Scenes/2Players/Trickshot 0.unity
+    guid: b4fd174e870da2140a92d5296aa62556
+  - enabled: 1
+    path: Assets/Scenes/2Players/Trickshot 1.unity
+    guid: c10c1c6e700b5584fb36878e99ffedbd
+  m_configObjects: {}
