@@ -29,4 +29,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2Players/Trickshot 1.unity
     guid: c10c1c6e700b5584fb36878e99ffedbd
+  - enabled: 1
+    path: Assets/Scenes/2Players/CaptureTheFlag0Blue.unity
+    guid: d4fe658f0ad74224fa6bd979aea78936
+  - enabled: 1
+    path: Assets/Scenes/2Players/CaptureTheFlag0Red.unity
+    guid: 6301e168c87a8c54caef85a23b726fb9
+  - enabled: 1
+    path: Assets/Scenes/2Players/GangWar 0.unity
+    guid: d86f376c59109194aa2c2900b98e2447
+  - enabled: 1
+    path: Assets/Scenes/2Players/Quickdraw.unity
+    guid: 96aa51fd4b8b2d542a9373f5d9c8b335
   m_configObjects: {}

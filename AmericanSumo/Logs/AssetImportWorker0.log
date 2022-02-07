@@ -15,11 +15,11 @@ D:/AmericanSumo/American-Sumo/AmericanSumo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54772
+63001
 Successfully changed project path to: D:/AmericanSumo/American-Sumo/AmericanSumo
 D:/AmericanSumo/American-Sumo/AmericanSumo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 59.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 70.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,101 +35,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004707 seconds.
+Registered in 0.004042 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 59.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 58.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.484 seconds
+- Completed reload, in  3.890 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001278 seconds.
+Registered in 0.001010 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.193 seconds
+- Completed reload, in  1.887 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1675 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.3 MB.
-System memory in use after: 86.3 MB.
+System memory in use after: 86.4 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2125.
-Total: 4.204000 ms (FindLiveObjects: 0.251900 ms CreateObjectMapping: 0.091400 ms MarkObjects: 3.709500 ms  DeleteObjects: 0.148400 ms)
+Total: 3.940600 ms (FindLiveObjects: 1.257400 ms CreateObjectMapping: 0.226400 ms MarkObjects: 2.315900 ms  DeleteObjects: 0.138700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(677ced8db358fb9409dd9078987e929f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(677ced8db358fb9409dd9078987e929f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b24e0076388ddea3056697cdbbcfe51') in 0.017102 seconds
-  Import took 0.020621 seconds .
+  path: Assets/PostProcessing.asset
+  artifactKey: Guid(812c571a11b8ac045b170fc85b45ceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing.asset using Guid(812c571a11b8ac045b170fc85b45ceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bfe94f431784ee12a51663c1383d65') in 0.056557 seconds
+  Import took 0.062079 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.513565 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75733e7078262684409d3fd9467fdb9') in 0.007892 seconds
-  Import took 0.015497 seconds .
+  Time since last request: 0.000639 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(c2b2978621384024a88293fa0bb685f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(c2b2978621384024a88293fa0bb685f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21a8527bdb4ae06da63fef7301d3d7d') in 0.002729 seconds
+  Import took 0.009005 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 1.801520 seconds.
-  path: Assets/Scenes/2Players
-  artifactKey: Guid(71d31fe00205d9f4cb25f3b0a471e0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/2Players using Guid(71d31fe00205d9f4cb25f3b0a471e0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f979a477c3cd4b3eea2eadbb05eede6') in 0.004362 seconds
-  Import took 0.009546 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.994 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.0 MB.
+System memory in use after: 80.1 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.830822 seconds.
-  path: Assets/Scenes/2Players/Trickshot 1.unity
-  artifactKey: Guid(c10c1c6e700b5584fb36878e99ffedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/2Players/Trickshot 1.unity using Guid(c10c1c6e700b5584fb36878e99ffedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f439a0b4e269fd78137a8c4d80512c49') in 0.004104 seconds
-  Import took 0.009619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004301 seconds.
-  path: Assets/Scenes/2Players/Trickshot 1.unity
-  artifactKey: Guid(c10c1c6e700b5584fb36878e99ffedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/2Players/Trickshot 1.unity using Guid(c10c1c6e700b5584fb36878e99ffedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f439a0b4e269fd78137a8c4d80512c49') in 0.003025 seconds
-  Import took 0.007690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.886072 seconds.
-  path: Assets/Scenes/2Players/CaptureTheFlag0Red.unity
-  artifactKey: Guid(6301e168c87a8c54caef85a23b726fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/2Players/CaptureTheFlag0Red.unity using Guid(6301e168c87a8c54caef85a23b726fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dea5b237d74cc3cd66727793af59bf4') in 0.003290 seconds
-  Import took 0.009263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.348320 seconds.
-  path: Assets/Scenes/2Players/CaptureTheFlag0Blue.unity
-  artifactKey: Guid(d4fe658f0ad74224fa6bd979aea78936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/2Players/CaptureTheFlag0Blue.unity using Guid(d4fe658f0ad74224fa6bd979aea78936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42969d86ada63d478fa1bd1513dc8515') in 0.003308 seconds
-  Import took 0.010612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.659734 seconds.
-  path: Assets/Scenes/2Players/GangWar 0.unity
-  artifactKey: Guid(d86f376c59109194aa2c2900b98e2447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/2Players/GangWar 0.unity using Guid(d86f376c59109194aa2c2900b98e2447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e589d8dd8d988e30ff4964b7e2bc09') in 0.003174 seconds
-  Import took 0.009960 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2128.
+Total: 4.277700 ms (FindLiveObjects: 0.384500 ms CreateObjectMapping: 0.174400 ms MarkObjects: 3.620000 ms  DeleteObjects: 0.096600 ms)
 
